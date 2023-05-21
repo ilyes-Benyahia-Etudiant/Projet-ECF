@@ -20,7 +20,7 @@ Attention a bien renommer les base de données !
 Creation Admin :
 
 Inscription via le formulaire avec une adresse email admin@gmail.fr  
-Connexion avec unn user_type (radio : admin)
+Connexion avec un user_type (radio : admin): Formulaire Admin dédié, accesible par une pastille jaune à partir du formulaire Login de User
 Connexion à la DB pour recuperation des items jointure avec la table categories
 Ajour de 3 otptions : View, Delete, Add
 
