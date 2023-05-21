@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind+Madurai:wght@300&family=Lora&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+
+/*-html,body 
+{
+  position: relative;
+  height: 100%;
+}*/
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link {
+  font-family: 'Lora', serif;
+  background-color: #B6AC97;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.btn {
+  background-color: #906427;
+}
+
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #392C1E;
+  
+}
+
+h2 {
+  color: #B6AC97;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+
+}
+
+
+#swiper {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 20px;
+  margin: 50px;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: column-reverse;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  object-fit: cover;
+}
+
+#footer p {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 20px;
+}
+
+.divider {
+  width:100px;
+  height: 2px;
+  background: #906427 ;
+  margin: 0 auto 20px;
+}
+

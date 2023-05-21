@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind+Madurai:wght@300&family=Lora&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+.divider {
+    width:100px;
+    height: 2px;
+    background: #ffa500;
+    margin: 0 auto 20px;
+}
+
+
+.btn {
+    background-color: #906427;
+    font-family: 'Lora', serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.heading {
+    text-align: center;
+    padding-bottom: 40px;        
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #B6AC97;
+    text-align: center;
+}
+
+p {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.form-label {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+    color: #906427 ;
+}
+
+#contact-form {
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+.brown {
+    color: #906427 ;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+
+#contact-form input[type=submit] {
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px
+}
+
+#contact-form .thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.button1 {
+    border: 1px solid #ddd;
+    background:  #906427 ;
+    color: #fff;
+    width: 100%;        
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: #392C1E;
+    
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind+Madurai:wght@300&family=Lora&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+.card {
+    background-image: url(https://img.freepik.com/photos-gratuite/assiette-vide-entouree-haricot-pinto-legumes-tranches-orange-disposees-fond-blanc_23-2148026849.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 20px;
+}
+
+h3, h4, h5 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #392C1E;
+}
+
+p {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+}
