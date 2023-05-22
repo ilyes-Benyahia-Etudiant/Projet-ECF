@@ -1,3 +1,9 @@
+-- Creation database :
+
+CREATE DATABASE burger_code;
+
+
+
 -- Creation Table : 
 
 
