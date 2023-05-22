@@ -8,7 +8,7 @@ CREATE TABLE categories (
 
 -- insertion :
 
-INSERT INTO categories (id, name) VALUES
+INSERT INTO burger_code.categories (id, name) VALUES
 ('1', 'Menus'),
 ('2', 'Burgers'),
 ('3', 'Snacks'),
@@ -44,7 +44,7 @@ ON items
 
 -- insertion :
 
-INSERT INTO items (id, name, description, price, image, category) VALUES
+INSERT INTO burger_code.items (id, name, description, price, image, category) VALUES
 ('Menu Classic', 'Sandwich: Burger, Salade, Tomate, Cornichon + Frites + Boisson', 8.9, 'm1.png', 1),
 ('Menu Big', 'Sandwich: Double Burger, Fromage, Cornichon, Salade + Frites + Boisson', 10.9, 'm3.png', 1),
 ('Menu Chicken', 'Sandwich: Poulet Frit, Tomate, Salade, Mayonnaise + Frites + Boisson', 9.9, 'm4.png', 1),
