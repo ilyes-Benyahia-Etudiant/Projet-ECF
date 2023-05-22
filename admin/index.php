@@ -19,9 +19,9 @@
     <body>
       <div class="container">
         <h1 class="text-logo"><span class="bi-shop"></span> Restaurant Quai Antique - Panel Admin <span class="bi-shop"></span><span style="margin-left: 10px;"><a href="./deconnexionAdmin.php" class="btn btn-danger btn-lg">Déconnexion</a></span></h1>
-        <button type="button" class="btn btn-warning btn-lg"><a href="membres.php">Afficher  les Membres</a></button>
-        <button type="button" class="btn btn-warning btn-lg"><a href="messages.php">Afficher les Messages</a></button>
-        <button type="button" class="btn btn-warning btn-lg"><a href="reservation.php">Afficher les Reservations</a></button>
+        <button type="button" class="btn btn-warning btn-lg"><a href="Affiche_membres.php">Afficher  les Membres</a></button>
+        <button type="button" class="btn btn-warning btn-lg"><a href="Affiche_msg.php">Afficher les Messages</a></button>
+        <button type="button" class="btn btn-warning btn-lg"><a href="Affiche_reservation.php">Afficher les Reservations</a></button>
       </div>
         
         
