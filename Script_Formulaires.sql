@@ -1,3 +1,8 @@
+--- Creatation Data base
+
+CREATE DATABASE contact_db;
+
+
 --- -- Creation Table Formulaire Contact : 
 
 CREATE TABLE contact_form (
