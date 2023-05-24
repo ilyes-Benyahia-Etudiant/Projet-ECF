@@ -46,6 +46,11 @@ ON items
 (
     category
 )
+
+--- 2nd méthode saisie ---
+FOREIGN KEY (category) REFERENCES categories(id) ON DELETE CASCADE ON UPDATE CASCADE;
+-> formule saisie dans la Table items
+
 -----------------------------------------------------------------------------------
 
 -- insertion :
