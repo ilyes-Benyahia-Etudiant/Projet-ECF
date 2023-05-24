@@ -91,8 +91,55 @@ INSERT INTO burger_code.items (id, name, description, price, image, category) VA
 
 
 
----------------------
+-------------------------------
 
 --- Jointure Tables
 
-SELECT items.id, items.name, items.description, items.price, categories.name AS category FROM items LEFT JOIN categories ON items.category = categories.id ORDER BY items.id 
+SELECT items.id, items.name, items.description, items.price, categories.name AS category FROM items LEFT JOIN categories ON items.category = categories.id ORDER BY items.id
+
+---------------------------------
+
+
+--- Après acvoir créer la requete CREATE INDEX ->
+
+UPDATE items SET category = 'Menu Classic' WHERE id = 1
+UPDATE items SET category = 'Menu Big' WHERE id = 1
+UPDATE items SET category = 'Menu Chicken' WHERE id = 1
+UPDATE items SET category = 'Menu Fish' WHERE id = 1
+UPDATE items SET category = 'Menu Double Steak' WHERE id = 1
+
+
+UPDATE items SET category = 'Classic' WHERE id = 2
+UPDATE items SET category = 'Big' WHERE id = 2
+UPDATE items SET category = 'Chicken' WHERE id = 2
+UPDATE items SET category = 'Fish' WHERE id = 2
+UPDATE items SET category = 'Double Steak' WHERE id = 2
+
+
+UPDATE items SET category = 'Frites' WHERE id = 3
+UPDATE items SET category = 'Onion' WHERE id = 3
+UPDATE items SET category = 'Nuggets' WHERE id = 3
+UPDATE items SET category = 'Nuggets Fromage' WHERE id = 3
+UPDATE items SET category = 'Ailes de Poulet' WHERE id = 3
+
+
+UPDATE items SET category = 'César Poulet Pané' WHERE id = 4
+UPDATE items SET category = 'César Poulet Grillé' WHERE id = 4
+UPDATE items SET category = 'Salade Light' WHERE id = 4
+UPDATE items SET category = 'Poulet Pané' WHERE id = 4
+UPDATE items SET category = 'Poulet Grillé' WHERE id = 4
+
+
+UPDATE items SET category = 'Coca-Cola' WHERE id = 5
+UPDATE items SET category = 'Coca-Cola Light' WHERE id = 5
+UPDATE items SET category = 'Coca-Cola Zero' WHERE id = 5
+UPDATE items SET category = 'Fanta' WHERE id = 5
+UPDATE items SET category = 'Sprite' WHERE id = 5
+UPDATE items SET category = 'Nestea' WHERE id = 5
+
+
+UPDATE items SET category = 'Fondant au chocolat' WHERE id = 6
+UPDATE items SET category = 'Muffin' WHERE id = 6
+UPDATE items SET category = 'Beignet' WHERE id = 6
+UPDATE items SET category = 'Milkshake' WHERE id = 6
+UPDATE items SET category = 'Sundae' WHERE id = 6
